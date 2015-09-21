@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.wynd.flunchdrive.app.Accueil">
+
+    <WebView  android:id="@+id/webview"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+            />
+    <TextView
+            android:id="@+id/contentView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5" />
+
+</FrameLayout>
+<!-- From: file:/Users/cgutu/Desktop/Android/FlunchDrive/app/src/main/res/layout/fragment_accueil.xml -->

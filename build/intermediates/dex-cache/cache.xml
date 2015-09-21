@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/cgutu/Desktop/Android/FlunchDrive/app/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507">
+        <dex dex="/Users/cgutu/Desktop/Android/FlunchDrive/app/build/intermediates/pre-dexed/debug/android-support-v4-24ce8d90ba257a4f9146e4e8a4a893a66fc7a48d.jar" />
+    </item>
+
+</items>

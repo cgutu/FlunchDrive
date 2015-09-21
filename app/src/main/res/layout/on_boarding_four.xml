@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/flunch_color">
+
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:gravity="center" android:id="@+id/L1" android:layout_alignParentStart="true"
+                      android:padding="10dp">
+            <ImageView
+                    android:id="@+id/imgLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:src="@drawable/header_logo"
+                    android:contentDescription="@string/alt_img"
+                    />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:id="@+id/L2" android:layout_alignParentBottom="true"
+                      android:padding="10dp">
+            <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/exp_four_boarding"
+                    android:contentDescription="@string/alt_img"
+                    />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:id="@+id/L3" android:layout_alignParentBottom="true"  android:gravity="center"
+                      android:padding="10dp">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/btnAccess"
+                    android:text="@string/button_access"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

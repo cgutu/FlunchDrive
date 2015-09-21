@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/cgutu/Desktop/Android/FlunchDrive/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <color name="flunch_color">#eb132b</color>
+    <!-- From: file:/Users/cgutu/Desktop/Android/FlunchDrive/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <!-- From: file:/Users/cgutu/Desktop/Android/FlunchDrive/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="alt_img">Flunch Drive</string>
+    <string name="app_name">Flunch Drive</string>
+    <string name="button_access">ACCES FLUNCH DRIVE</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="title_activity_accueil">Accueil</string>
+    <string name="title_activity_screen_slide">ScreenSlideActivity</string>
+    <string name="title_activity_splash_screen">Flunch Drive</string>
+    <string name="title_section1">Accueil</string>
+    <string name="title_section2">Découvrez Flunch Drive</string>
+    <string name="title_section3">Trouver votre Flunch</string>
+    <string name="title_section4">"Arrivé"</string>
+    <string name="title_section5">Vos commandes</string>
+    <string name="title_section6">Votre compte</string>
+    <string name="title_section7">CGV</string>
+    <string name="title_section8">Contact</string>
+    <!-- From: file:/Users/cgutu/Desktop/Android/FlunchDrive/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
