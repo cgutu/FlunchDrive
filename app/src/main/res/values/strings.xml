@@ -21,6 +21,8 @@
     <string name="hello_world">Hello world!</string>
 
     <color name="flunch_color">#eb132b</color>
+    <color name="white">#ffffff</color>
+
     <string name="alt_img">Flunch Drive</string>
     <string name="title_activity_screen_slide">ScreenSlideActivity</string>
 
@@ -29,4 +31,13 @@
 
     <string name="button_access">ACCES FLUNCH DRIVE</string>
     <string name="title_activity_accueil">Accueil</string>
+
+    <string name="exp1">Pour la première fois, commandez\n en ligne dans votre Flunch préféré\n et venez récupérez votre\n
+        commande en voiture.</string>
+    <string name="exp2">En quelques clics, choisissez\n votre Flunch, vos produits et\n payez en toute sécurité</string>
+    <string name="font_din">./assets/fonts/DINMedium.ttf</string>
+    <string name="exp3">Venez à l’heure demandée dans\n votre Flunch et prévenez nous\n de votre arrivée sur parce grâce\n au bouton « Arrivé ».</string>
+    <string name="exp4">Un équipier Flunch vous apporter\n votre commande dans\n
+        les 5 minutes !</string>
+    <string name="font_golos">./assets/fonts/Golos-Bold.ttf</string>
 </resources>
