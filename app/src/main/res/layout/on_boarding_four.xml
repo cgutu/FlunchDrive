@@ -21,26 +21,51 @@
                     />
         </LinearLayout>
         <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
-                      android:id="@+id/L2" android:layout_alignParentBottom="true"
+                      android:id="@+id/L2" android:layout_below="@+id/L1" android:gravity="center"
+                      android:padding="10dp">
+            <ImageView
+                    android:id="@+id/imgSlide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/nbslide_four"
+                    android:contentDescription="@string/alt_img"
+                    />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:id="@+id/L3" android:layout_below="@+id/L2"
                       android:padding="10dp">
             <ImageView
                     android:id="@+id/img"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:src="@drawable/exp_four_boarding"
+                    android:src="@drawable/expli4"
                     android:contentDescription="@string/alt_img"
                     />
         </LinearLayout>
         <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
-                      android:id="@+id/L3" android:layout_alignParentBottom="true"  android:gravity="center"
-                      android:padding="10dp">
-            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:id="@+id/L4"
+                      android:padding="10dp" android:layout_below="@+id/L3">
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:text="@string/exp1" android:id="@+id/text"
+                      android:textColor="@color/white"
+                      android:gravity="center" android:fontFamily="@string/font_din"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:id="@+id/L5"  android:gravity="center"
+                      android:padding="10dp" android:layout_below="@+id/L4">
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:id="@+id/btnAccess"
                     android:text="@string/button_access"
-                    android:gravity="center_horizontal"
-                    android:layout_gravity="center"
-                    />
+                    android:textColor="@color/white"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textAllCaps="true"
+                    android:background="@drawable/button_access" android:fontFamily="@string/font_golos"/>
         </LinearLayout>
     </RelativeLayout>
 
